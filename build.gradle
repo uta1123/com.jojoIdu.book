@@ -27,6 +27,11 @@ repositories {
 
 dependencies {
     implementation('org.springframework.boot:spring-boot-starter-web')
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa') //spring data jpa 추상화 라이브러리
+    implementation('org.h2database:h2') //인메모리형 관계형 DB
     testImplementation('org.springframework.boot:spring-boot-starter-test')
+
 }
 
