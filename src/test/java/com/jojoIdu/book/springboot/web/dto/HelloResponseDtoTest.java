@@ -1,4 +1,4 @@
-package springboot.web.dto;
+package com.jojoIdu.book.springboot.web.dto;
 
 import com.jojoIdu.book.springboot.web.dto.HelloResponseDto;
 import org.junit.Test;
